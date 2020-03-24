@@ -6,6 +6,30 @@ import PIL.ExifTags
 import PIL.Image
 import PIL.ImageOps
 
+def label_graymap(n_label=256):
+    """
+    Label graymap for training camvid dataset.
+    This function is modified from imgviz label_colormap()
+    Parameters
+    ----------
+    n_labels: int
+        Number of labels (default: 256).
+    Returns
+    -------
+    cmap: numpy.ndarray, (N, 3), numpy.uint8
+        Label id to colormap.
+    """
+
+    def bitget(byteval, idx):
+        return (byteval & (1 << idx)) != 0
+
+    cmap = np.zeros((n_label, 3), dtype=np.uint8)
+    for i in range(0, n_label):
+        cmap[i, 0] = i
+        cmap[i, 1] = i
+        cmap[i, 2] = i
+
+    return cmap
 
 def img_data_to_arr(img_data):
     f = io.BytesIO()

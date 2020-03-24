@@ -141,6 +141,8 @@ def main():
                 'labelme_draw_json=labelme.cli.draw_json:main',
                 'labelme_draw_label_png=labelme.cli.draw_label_png:main',
                 'labelme_json_to_dataset=labelme.cli.json_to_dataset:main',
+                'labelme_json_to_dataset_bat=labelme.cli.json_to_dataset_bat:main',
+                'labelme_remap_annotations=labelme.cli.remap_annotations:main',
                 'labelme_on_docker=labelme.cli.on_docker:main',
             ],
         },

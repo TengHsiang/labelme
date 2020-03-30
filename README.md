@@ -191,7 +191,7 @@ For more advanced usage, please refer to the examples:
 - **How to load label PNG file?** See [examples/tutorial](examples/tutorial#how-to-load-label-png-file).
 - **How to get annotations for semantic segmentation?** See [examples/semantic_segmentation](examples/semantic_segmentation).
 - **How to get annotations for instance segmentation?** See [examples/instance_segmentation](examples/instance_segmentation).
-
+- **How to remap annotations for customize usage?** See [examples/remap_annotation](examples/remap_annotation).
 
 ## Testing
 

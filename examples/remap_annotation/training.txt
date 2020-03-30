@@ -1,0 +1,3 @@
+training/ADE_train_00000001.jpg
+training/ADE_train_00000002.jpg
+training/ADE_train_00000003.jpg

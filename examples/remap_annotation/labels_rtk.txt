@@ -1,0 +1,7 @@
+background
+sky
+people
+water flow
+character
+natural texture
+artifical texture
